@@ -1,0 +1,21 @@
+.product img {
+    width: 300px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addToCartButton {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: green;
+}
+
+.addToCartButton:hover {
+    background-color: white;
+    color: green;
+    cursor: pointer;
+}
